@@ -4,7 +4,7 @@ export default function Home () {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            height: '50vh'
+            height: '50%'
         }}>
             <h1>Página em Construção!</h1>
         </div>
