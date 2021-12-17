@@ -1,7 +1,11 @@
-export default function Navegador () {
+import Link from 'next/link'
+
+export default function Navegador (props) {
     return (
-        <div>
-            
-        </div>
+        <Link href={props.destino}>
+            <div className="itens-nav">
+            {props.texto}
+            </div>
+        </Link>
     )
 }
